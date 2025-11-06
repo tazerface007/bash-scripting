@@ -1,0 +1,38 @@
+# Ignore compiled binaries, object files, etc.
+*.o
+*.out
+*.exe
+
+# Ignore temporary or backup files
+*~
+*.swp
+*.tmp
+*.bak
+
+# Ignore logs
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore environment and config files
+.env
+.config
+
+# Ignore personal scripts or notes
+notes.txt
+todo.txt
+
+# Ignore test output or generated files
+/output/
+build/
+tmp/
+
+# If using VS Code or JetBrains IDEs
+.vscode/
+.idea/
+
+# If using macOS/Linux file explorers
+.Trash/
+setup.sh
