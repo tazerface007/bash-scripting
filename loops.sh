@@ -16,3 +16,11 @@ done
 for file in *.txt; do
 	echo $file
 done
+
+
+# while loops
+i=1
+while [ $i -le 1000 ]; do
+	echo while $i
+	i=$((i+1))
+done
